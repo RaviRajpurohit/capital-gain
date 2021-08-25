@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "f556163e-18cb-4840-aa56-c961e416dbef",
+		"name": "Stock",
+		"description": "Postman Collection of Stock service for Capital Gain Problem.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Trnsaction for FY: 07-08",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stock/07-08",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stock",
+						"07-08"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calculate Profit for FY: 07-08",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stock/profit/07-08",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stock",
+						"profit",
+						"07-08"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
